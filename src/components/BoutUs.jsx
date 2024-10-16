@@ -3,9 +3,9 @@ import team from '../assets/team.jpg'
 
 function BoutUs() {
   return (
-    <section className=' w-screen bg-cover bg-center min-h-screen ' 
+    <section className=' w-screen bg-cover bg-center min-h-screen mt-12' 
     style={{backgroundImage: `url(${team}) `}}>
-      <div className="m-10  bg-green-600 w-1/4 p-6">
+      <div className="mt-2 ml-10 mr-10  bg-green-600 w-1/4 p-6">
         <h2 className='font-bold text-2xl m-3'>About Us</h2>
         <p className="m-5">
           Welcome to IBOZA Pharmacy, your trusted online destination for
